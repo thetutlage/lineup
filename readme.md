@@ -1,4 +1,4 @@
-!["Screen Shot"](./screenshot.png)
+!["Screen Shot"](https://raw.githubusercontent.com/thetutlage/lineup/master/screenshot.png)
 
 Take cares of all tedious tasks you have to do while writing cli app/tools.
 
