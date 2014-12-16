@@ -1,0 +1,20 @@
+{
+  "name": "lineup",
+  "version": "0.0.0",
+  "description": "Must have tool for your next cli app , consists of logger, progress bar, higlighter, stickers and pretty list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "amanvirk <virk.officials@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.0.3",
+    "dateformat": "^1.0.11",
+    "elapsed": "0.0.3",
+    "log-symbols": "^1.0.1",
+    "pleasant-progress": "^1.0.2",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {}
+}
