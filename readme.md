@@ -276,5 +276,4 @@ pass original string as the 2nd parameter on `note` method.
 * **color** will be used as the border color and should be a valid color from https://www.npmjs.com/package/colors
 
 
-
-### See examples/index.js for list of all example
+### See /examples for list of all example
