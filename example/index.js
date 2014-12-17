@@ -2,7 +2,7 @@ var Lineup = require('../index');
 var colors = require('colors');
 
 
-logger_options = {
+var logger_options = {
   'identifier': 'gulp',
   'showDateTime': true,
   'filePath': __filename,

@@ -1,6 +1,6 @@
 {
   "name": "lineup",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Must have tool for your next cli app , consists of logger, progress bar, higlighter, stickers and pretty list",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,6 @@
     "pleasant-progress": "^1.0.2",
     "underscore": "^1.7.0"
   },
+  "keywords": ["logger","debug","progress","update-notifier","notifier","progress tick","ol","li","list items","highlight","cli-highlight"],
   "devDependencies": {}
 }
