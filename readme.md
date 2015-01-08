@@ -282,7 +282,7 @@ Added new objects to show actions , display icons and extend colors.
 
 ### Actions
 
-CLI tools performs bunch of actions , which does not falls in notification or logs category, you can simple use lineup.action object to display following actions.
+CLI tools performs bunch of actions , which does not falls in notification or logs category, you can simply use lineup.action object to display following actions.
 
 ```javascript
 var LineUp = require('../index');
