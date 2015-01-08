@@ -1,6 +1,6 @@
 {
   "name": "lineup",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Must have tool for your next cli app , consists of logger, progress bar, higlighter, stickers and pretty list",
   "main": "index.js",
   "scripts": {

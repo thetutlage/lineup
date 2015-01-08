@@ -276,4 +276,54 @@ pass original string as the 2nd parameter on `note` method.
 * **color** will be used as the border color and should be a valid color from https://www.npmjs.com/package/colors
 
 
+## Update ( 0.0.6 )
+
+Added new objects to show actions , display icons and extend colors.
+
+### Actions
+
+CLI tools performs bunch of actions , which does not falls in notification or logs category, you can simple use lineup.action object to display following actions.
+
+```javascript
+var LineUp = require('../index');
+var lineup = new LineUp();
+
+lineup.action.success('create','Created file at /lib/action.js');
+lineup.action.error('failed','There was an error creating file at /lib/action.js');
+lineup.action.warn('failed','All files at /lib will be overwritten');
+lineup.action.info('create','/lib has 777 rights ');
+```
+
+!["Screen Shot"](https://raw.githubusercontent.com/thetutlage/lineup/master/actions.png)
+
+### Icons
+
+Use lineup in-built icons anywhere you wish
+
+```javascript
+var LineUp = require('../index');
+var lineup = new LineUp();
+
+console.log(lineup.icon('info'));
+console.log(lineup.icon('success'));
+console.log(lineup.icon('warn'));
+console.log(lineup.icon('error'));
+```
+
+!["Screen Shot"](https://raw.githubusercontent.com/thetutlage/lineup/master/icons.png)
+
+### Colors
+
+Lineup makes heavy use of [colors](https://www.npmjs.com/package/colors) , if you want to use colors, instead of downloading it as dependency, you can simply extend lineup colors object.
+
+```javascript
+var LineUp = require('../index');
+var lineup = new LineUp();
+
+console.log(lineup.colors.green('this is success'));
+
+```
+
+Complete [colors](https://www.npmjs.com/package/colors) api is available as lineup.colors
+
 ### See /examples for list of all example
