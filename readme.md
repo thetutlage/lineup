@@ -247,10 +247,14 @@ Above will output
 
 ** IMPORTANT **
 
-Lineup uses string length to create sticker width and height , and tools like colors add ASCII characters to strings to produce desired results , resulting in bigger string length.
+~~Lineup uses string length to create sticker width and height , and tools like colors add ASCII characters to strings to produce desired results , resulting in bigger string length.~~
 
-A string called `Hello World` used with colors will have a length greater than 30 characters where as the original length is 11 characters including the space. In order to achieve better results you are advised to
-pass original string as the 2nd parameter on `note` method.
+~~A string called `Hello World` used with colors will have a length greater than 30 characters where as the original length is 11 characters including the space. In order to achieve better results you are advised to
+pass original string as the 2nd parameter on `note` method.~~
+
+## Update ( 0.0.7 )
+
+Now there is no need to pass 2nd parameter, lineup now automatically escapes ansi characters.
 
 #### Example
 
@@ -264,7 +268,7 @@ pass original string as the 2nd parameter on `note` method.
   }
   var string = 'Hello world';
   var fancy_string = colors.green(string);
-  lineup.sticker.note(fancy_string,string);
+  lineup.sticker.note(fancy_string);
   lineup.sticker.show(sticker_options);  
 ```
 

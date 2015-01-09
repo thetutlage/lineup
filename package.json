@@ -1,15 +1,15 @@
 {
   "name": "lineup",
-  "version": "0.0.6",
-  "description": "Must have tool for your next cli app , consists of logger, progress bar, higlighter, stickers and pretty list",
+  "version": "0.0.7",
+  "description": "Must have tool for your next cli app , consists of logger, progress bar, higlighter, stickers, pretty list, actions , icons and terminal colors",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "homepage": "https://github.com/thetutlage/lineup",
-  "repository":{
-    "type" : "git",
-    "url"  : "https://github.com/thetutlage/lineup"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thetutlage/lineup"
   },
   "author": "amanvirk <virk.officials@gmail.com>",
   "license": "ISC",
@@ -20,6 +20,24 @@
     "pleasant-progress": "^1.0.2",
     "underscore": "^1.7.0"
   },
-  "keywords": ["logger","debug","progress","update-notifier","notifier","progress tick","ol","li","list items","highlight","cli-highlight"],
+  "keywords": [
+    "logger",
+    "debug",
+    "progress",
+    "update-notifier",
+    "notifier",
+    "progress tick",
+    "ol",
+    "li",
+    "list items",
+    "highlight",
+    "cli-highlight",
+    "action-stickers",
+    "terminal-icons",
+    "cli-icons",
+    "icons",
+    "colors",
+    "chalk-colors"
+  ],
   "devDependencies": {}
 }

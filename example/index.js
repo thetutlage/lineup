@@ -39,7 +39,7 @@ lineup.highlight.end();
 var warn_string = "I can warn you using some pretty colors";
 
 lineup.sticker.note("I am a sticker");
-lineup.sticker.note(lineup.colors.yellow(warn_string),warn_string);
+lineup.sticker.note(lineup.colors.yellow(warn_string));
 lineup.sticker.note('What about a yo man like update notification, SEE NEXT');
 lineup.sticker.show({
   align:'left',
@@ -53,8 +53,8 @@ var pre_label = 'Run ';
 var command = 'npm update -g yo'
 var post_label = ' to update';
 
-lineup.sticker.note(label+lineup.colors.green(version)+lineup.colors.dim(current_version),label+version+current_version);
-lineup.sticker.note(pre_label+lineup.colors.cyan(command)+post_label,pre_label+command+post_label);
+lineup.sticker.note(label+lineup.colors.green(version)+lineup.colors.dim(current_version));
+lineup.sticker.note(pre_label+lineup.colors.cyan(command)+post_label);
 lineup.sticker.show({
   align:'left',
   color: 'yellow'

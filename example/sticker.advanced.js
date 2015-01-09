@@ -7,5 +7,5 @@ var sticker_options = {
 }
 var string = 'Hello world';
 var fancy_string = colors.green(string);
-lineup.sticker.note(fancy_string,string);
+lineup.sticker.note(fancy_string);
 lineup.sticker.show(sticker_options);
